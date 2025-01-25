@@ -1,3 +1,4 @@
+# CTE to identify the top 10 countries by number of customers
 WITH Top_10_countries AS
     (SELECT country
 	FROM customer
