@@ -1,3 +1,4 @@
+# SQL CTE Query to find the average amount paid by the top 5 customers.
 WITH Top_10_countries AS
     (SELECT country
 	FROM customer
@@ -34,5 +35,3 @@ Top_customer AS
 	LIMIT 5)
 SELECT AVG(total_amount)
 FROM top_customer;
-
-
