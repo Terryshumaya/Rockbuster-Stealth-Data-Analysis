@@ -6,3 +6,7 @@ As an analyst with Rockbuster Stealth's business intelligence (BI) department, w
 
 ## Key Questions and Objectives
 + Which movies contributed the most/least to revenue gain?
++ What was the average rental duration for all videos?
++ Where are customers with a high lifetime value based?
++ Do sales figures vary between geographic regions?
++ What movie genres generatedthe most revenue?
