@@ -27,5 +27,5 @@ As an analyst with Rockbuster Stealth's business intelligence (BI) department, w
  - PostgreSQL: Relational database management system (RDBMS) used to store and querying the data.
  - Tableau Public: Platform for creating and sharing interactive data visualizations.
 
-Visualizations link: 
++ [Visualizations link]: (https://public.tableau.com/app/profile/terence.shumaya/vizzes) 
 
