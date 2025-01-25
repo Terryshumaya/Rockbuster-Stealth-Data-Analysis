@@ -11,3 +11,21 @@ As an analyst with Rockbuster Stealth's business intelligence (BI) department, w
 + Do sales figures vary between geographic regions?
 + What movie genres generatedthe most revenue?
 
+## Datasets provided for the project
+ - Rockbuster's film inventory
+ - Customers
+ - Payments
+ - Stores
+ - Staff
+ - Films
+ - Actors
+ - Rental history
+ - Addresses
+
+## Tools used for the Analysis
+ - pgAdmin4: For managing PostgreSQL databases.
+ - PostgreSQL: Relational database management system (RDBMS) used to store and querying the data.
+ - Tableau Public: Platform for creating and sharing interactive data visualizations.
+
+Visualizations link: 
+
