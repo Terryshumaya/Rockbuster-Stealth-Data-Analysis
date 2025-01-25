@@ -10,7 +10,7 @@ WITH Top_10_countries AS
 	ORDER BY COUNT(customer.customer_id) DESC
 	LIMIT 10),
 
-– CTE query to identify the top cities in the top 10 countries
+– CTE query to identify the top cities within the top 10 countries
 
 Top_city AS
 (SELECT city
@@ -24,6 +24,9 @@ Top_city AS
 	GROUP BY country, city
 	ORDER BY COUNT(customer.customer_id) DESC
 	LIMIT 10),
+
+-- CTE to select the top 5 paying customers within the top 10 cities
+
 Top_customer AS
 (SELECT SUM(payment.amount) AS total_amount
     FROM payment
@@ -37,5 +40,8 @@ Top_customer AS
 	GROUP BY customer.first_name, customer.last_name, city.city, country.country
 	ORDER BY total_amount DESC
 	LIMIT 5)
+
+-- Query to calculate the average amount paid by the top 5 customers
+
 SELECT AVG(total_amount)
 FROM top_customer;
