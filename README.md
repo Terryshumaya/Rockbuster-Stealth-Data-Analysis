@@ -10,3 +10,4 @@ As an analyst with Rockbuster Stealth's business intelligence (BI) department, w
 + Where are customers with a high lifetime value based?
 + Do sales figures vary between geographic regions?
 + What movie genres generatedthe most revenue?
+
