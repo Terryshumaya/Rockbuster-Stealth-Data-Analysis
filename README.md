@@ -2,7 +2,7 @@
 Rockbuster Stealth LLC, a movie rental company that had stores globally and currently facing stiff competition from streaming giants such as Netflix and Amazon Prime, seeks to use its existing movie licenses to transition to an online video rental service. The goal of this project is to help with the strategy for the new online service.
 
 ## Project Overview
-As an analyst with Rockbuster Stealth's business intelligence (BI) department, which is responsible for helping other departments, from inventory to customer insights with data-related queries, the main objective is to load all of Rockbuster's data into a relational database management system (RDBMS) then use SQL to analyze the data and answer business questions that other departments may have to help launch the online service.
+As an analyst with Rockbuster Stealth's business intelligence (BI) department, which is responsible for helping other departments, from inventory to customer insights with data-related queries, the main objective is to load all of Rockbuster's data into a relational database management system (RDBMS) then use SQL to analyze the data and answer business questions that other departments may need to help launch the online service.
 
 ## Key Questions and Objectives
 + Which movies contributed the most/least to revenue gain?
