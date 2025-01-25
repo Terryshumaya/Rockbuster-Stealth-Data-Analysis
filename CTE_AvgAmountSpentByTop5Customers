@@ -1,3 +1,6 @@
+This SQL query calculates the average amount spent by the top 5 customers, based on their total payment amount. The query uses CTEs to sequentially filter and aggregate data from the database.
+
+-- CTE to identify the top 10 countries by the number of customers
 WITH Top_10_countries AS
     (SELECT country
 	FROM customer
